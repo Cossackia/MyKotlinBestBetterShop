@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color_items"
+    tools:context=".ProductDescription">
+
+    <TextView
+        android:id="@+id/item_with_list_title_one"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:paddingVertical="10dp"
+        android:id="@+id/item_with_list_text"
+        android:textSize="16sp"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/but_byu"
+        android:paddingHorizontal="20dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bg_color"
+        android:backgroundTint="@color/but_text_reg"
+        android:text="@string/but_byu" />
+
+</LinearLayout>

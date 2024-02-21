@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyKotlinBestBetterShop</string>
+    <string name="account_registration">Создание аккаунта</string>
+    <string name="hint_email">Введите вашу почту:</string>
+    <string name="hint_logo">Введите ваш логин:</string>
+    <string name="hint_password">Введите ваш пароль:</string>
+    <string name="but_registration">Зарегистрироваться</string>
+    <string name="authorization">Войдите в аккаунт</string>
+    <string name="but_entrance">Войти</string>
+    <string name="product">Товары</string>
+    <string name="look_item">Посмотреть</string>
+    <string name="but_byu">Купить</string>
+</resources>
